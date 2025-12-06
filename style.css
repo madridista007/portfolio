@@ -114,3 +114,21 @@ header h2 {
   border-radius: 6px;
   box-shadow: 0 1px 4px rgba(0,0,0,0.1);
 }
+.skills-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* two columns */
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.skill {
+  background: #fff;
+  padding: 12px 15px;
+  border-radius: 6px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+}
+
+.skill strong {
+  color: #00bcd4;
+}
+
