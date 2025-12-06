@@ -143,3 +143,8 @@ header h2 {
   object-fit: cover;
   border: 2px solid #00bcd4;
 }
+  html {
+  scroll-behavior: smooth; /* smooth scrolling */
+  scroll-padding-top: 100px; /* offset for sticky header */
+}
+
