@@ -130,21 +130,3 @@ header h2 {
 
 .skill strong {
   color: #00bcd4;
-}
-#education ul {
-  list-style: none;
-  padding: 0;
-}
-
-#education li {
-  background: #fff;
-  margin-bottom: 10px;
-  padding: 12px 15px;
-  border-radius: 6px;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
-}
-
-#education strong {
-  color: #00bcd4;
-}
-
