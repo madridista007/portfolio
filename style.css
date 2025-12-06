@@ -130,3 +130,16 @@ header h2 {
 
 .skill strong {
   color: #00bcd4;
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.profile-pic {
+  width: 80px;   /* smaller size */
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #00bcd4;
+}
