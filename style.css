@@ -53,3 +53,29 @@ footer {
   color: #fff;
   margin-top: 40px;
 }
+
+.project {
+  background: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.project h3 {
+  margin-top: 0;
+  color: #00bcd4;
+}
+
+.project a {
+  display: inline-block;
+  margin-top: 10px;
+  color: #00bcd4;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.project a:hover {
+  text-decoration: underline;
+}
+
