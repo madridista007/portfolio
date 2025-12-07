@@ -236,3 +236,12 @@ html {
   color: #333;
   margin: 0;
 }
+.badge a {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.badge a:hover p {
+  color: #00bcd4; /* highlight text on hover */
+}
