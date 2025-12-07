@@ -254,3 +254,22 @@ html {
 .badge strong {
   color: #00bcd4; /* highlight the degree title */
 }
+.about-card {
+  background: linear-gradient(135deg, #00bcd4, #0097a7);
+  color: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.about-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.2);
+}
+
+.about-card p {
+  margin-bottom: 15px;
+  font-size: 1.05em;
+  line-height: 1.6;
+}
