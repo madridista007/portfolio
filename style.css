@@ -245,3 +245,12 @@ html {
 .badge a:hover p {
   color: #00bcd4; /* highlight text on hover */
 }
+.badge p {
+  font-size: 0.95em;
+  color: #333;
+  margin: 0;
+}
+
+.badge strong {
+  color: #00bcd4; /* highlight the degree title */
+}
