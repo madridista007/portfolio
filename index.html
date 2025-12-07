@@ -190,6 +190,14 @@
     <a href="https://github.com/madridista007/cricketapp" target="_blank">View on GitHub</a>
   </div>
 </section>
+  <script>
+  document.querySelectorAll('.toggle-btn').forEach(button => {
+    button.addEventListener('click', () => {
+      const content = button.nextElementSibling;
+      content.style.display = content.style.display === 'block' ? 'none' : 'block';
+    });
+  });
+</script>
   <footer>
     <p>© 2025 Umar Farooq | Cloud Engineer</p>
   </footer>
