@@ -126,8 +126,8 @@
       <button class="toggle-btn">Problem</button>
       <div class="toggle-content">
         <p>
-          Manual application updates to Azure VMs were error‑prone and time‑consuming. Networking and routing required
-          secure, repeatable configuration.
+          Updating the Node.js application on Azure virtual machines was manual and slow.
+          Each change required logging into the server and setting things up by hand, which made deployments inconsistent and time‑consuming.
         </p>
       </div>
     </div>
@@ -136,8 +136,9 @@
       <button class="toggle-btn">Solution</button>
       <div class="toggle-content">
         <p>
-          Provisioned Azure resources (VNet, NSG, Linux VM) via Terraform. Deployed Node.js Express backend with NGINX
-          reverse proxy. Automated builds and deployments using CI/CD pipelines.
+          Automated the deployment by using Terraform to provision the Azure VM and networking, then set up a CI/CD pipeline in Azure DevOps.
+          The pipeline pulled the latest code from the repo and deployed the Node.js application with NGINX as a reverse proxy.
+          This removed the need to log in and update the server manually.
         </p>
       </div>
     </div>
@@ -146,8 +147,8 @@
       <button class="toggle-btn">Outcome</button>
       <div class="toggle-content">
         <p>
-          Faster, reliable updates with minimal manual steps. Clear pipelines improved traceability and reduced
-          misconfigurations.
+          Updates became fast, reliable, and consistent. Every change to the codebase triggered an automated rollout, reducing downtime and human error.
+          The project showed strong skills in combining infrastructure automation with application deployment, making delivery smoother and more professional.
         </p>
       </div>
     </div>
@@ -156,7 +157,7 @@
 
   <!-- Project 3 -->
   <div class="project">
-    <h3>Cricket App</h3>
+    <h3>Cricket App for nearby Users</h3>
 
     <div class="toggle-section">
       <button class="toggle-btn">Problem</button>
