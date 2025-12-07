@@ -163,3 +163,40 @@ html {
   scroll-behavior: smooth;
   scroll-padding-top: 100px;
 }
+.project {
+  margin-bottom: 30px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+.toggle-section {
+  margin: 10px 0;
+}
+
+.toggle-btn {
+  background-color: #00bcd4; /* Azure accent */
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  font-size: 1em;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 100%;
+  text-align: left;
+  transition: background-color 0.3s ease;
+}
+
+.toggle-btn:hover {
+  background-color: #0097a7;
+}
+
+.toggle-content {
+  display: none;
+  padding: 10px;
+  margin-top: 5px;
+  border-left: 3px solid #00bcd4;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+}
