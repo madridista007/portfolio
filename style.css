@@ -6,6 +6,34 @@ body {
   background: #f9f9f9;
   color: #333;
 }
+h2 {
+  border-bottom: 2px solid #00bcd4;
+  padding-bottom: 5px;
+  margin-bottom: 20px;
+  color: #222;
+  position: relative;
+}
+
+h2::after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 50px;
+  height: 2px;
+  background: linear-gradient(90deg, #00bcd4, #0097a7);
+}
+.project {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.project:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+.about-card strong {
+  color: #ffd700; /* gold accent */
+}
 
 /* Header */
 header {
